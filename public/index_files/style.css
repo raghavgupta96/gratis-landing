@@ -5,10 +5,13 @@
  *
  * Made By MaterializeCSS.com
  */
+body{
+  background-color: #00c173;
+}
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+
+.members{
+
 }
 
 p {
@@ -57,15 +60,48 @@ footer.page-footer {
 }
 
 .nav-wrapper .brand-logo img {
-  height: 100px;
+  height: 110px;
 }
 
-.green{
-  color: #00bb5e;
+#logoGratis{
+  background-color: #00c173;
 }
-
+#footer{
+  background-color: #494949;
+}
+h1{
+  color: #00c173;
+}
 nav{
-  min-height: 100px;
+  background-color: #00c173;
+  min-height: 120px;
+}
+nav ul a,
+.logoGratis .brand-logo {
+  color: #444;
+}
+#greenBG{
+  background-color: #00c173;
+}
+#greenText{
+  color: #00c173;
+}
+#countdown{
+  font-size: 40px;
+}
+#demo{
+  font-size: 500%;
+  text-align: center;
+}
+#members img{
+  height: 60px;
+}
+
+nav li a{
+  font-size: 130%;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  color: white;
 }
 
 .opacity {
