@@ -1,19 +1,19 @@
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
  * Made By MaterializeCSS.com
  */
-body{
+
+body {
   background-color: white;
   /*background-color: #00c173;*/
 }
 
-
-.members{
-
-}
+.members {}
 
 p {
   line-height: 2rem;
@@ -24,20 +24,17 @@ p {
 }
 
 .parallax-container {
-  min-height: 480px;
+  min-height: 560px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
 
-.parallax-container-section1 {
-min-height: 600px;
+.parallax-container .section {
+  width: 100%;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -47,77 +44,80 @@ min-height: 600px;
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
   #index-banner .section {
-    top: 0;
+    top: 100px;
   }
 }
 
-
 h1 {
-    font-size: 500%;
+  font-size: 500%;
 }
-h2{
+
+h2 {
   font-size: 250%;
 }
-h5{
+
+h5 {
   font-size: 170%;
 }
-#demo{
+
+#demo {
   font-size: 800%;
   text-align: center;
 }
+
+
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media screen and (min-width: 1281px) {
-h1{
-  font-size: 500%;
-}
-h5{
-  font-size: 170%;
-}
-#demo{
-  font-size: 800%;
-  text-align: center;
+  h1 {
+    font-size: 500%;
+  }
+  h5 {
+    font-size: 170%;
+  }
+  #demo {
+    font-size: 800%;
+    text-align: center;
+  }
 }
 
-}
 
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
+
 @media screen and (max-width: 1280px) and (min-width: 1101px) {
-h1{
-  font-size: 450%;
+  h1 {
+    font-size: 450%;
+  }
+  h5 {
+    font-size: 160%;
+  }
+  #demo {
+    font-size: 800%;
+    text-align: center;
+  }
 }
-h5{
-  font-size: 160%;
-}
-#demo{
-  font-size: 800%;
-  text-align: center;
-}
-
-}
-
 
 @media screen and (max-width: 1100px) and (min-width: 1025px) {
-h1{
-  font-size: 450%;
-}
-h5{
-  font-size: 160%;
-}
-#demo{
-  font-size: 600%;
-  text-align: center;
+  h1 {
+    font-size: 450%;
+  }
+  h5 {
+    font-size: 160%;
+  }
+  #demo {
+    font-size: 600%;
+    text-align: center;
+  }
 }
 
-}
 
 /*
   ##Device = Tablets, Ipads (portrait)
@@ -125,17 +125,16 @@ h5{
 */
 
 @media (max-width: 1024px) and (min-width: 768px) {
-  h1{
+  h1 {
     font-size: 350%;
   }
-  h5{
+  h5 {
     font-size: 150%;
   }
-  #demo{
+  #demo {
     font-size: 500%;
     text-align: center;
   }
-
 }
 
 
@@ -145,18 +144,18 @@ h5{
 */
 
 @media screen and (max-width: 767px) and (min-width: 481px) {
-  h1{
+  h1 {
     font-size: 300%;
   }
-  h5{
+  h5 {
     font-size: 140%;
   }
-  #demo{
+  #demo {
     font-size: 400%;
     text-align: center;
   }
-
 }
+
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -164,68 +163,71 @@ h5{
 */
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
-  h1{
+  h1 {
     font-size: 250%;
   }
-  h5{
+  h5 {
     font-size: 130%;
   }
-  #demo{
+  #demo {
     font-size: 300%;
     text-align: center;
   }
-
 }
-
-
-
-
 
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
 
 footer.page-footer {
   margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .nav-wrapper .brand-logo img {
   height: 110px;
 }
 
-#logoGratis{
+#logoGratis {
   background-color: #00c173;
 }
-#footer{
+
+#footer {
   background-color: #494949;
 }
-h1{
+
+h1 {
   color: #00c173;
 }
-nav{
+
+nav {
   background-color: transparent;
   min-height: 120px;
 }
+
 nav ul a,
 .logoGratis .brand-logo {
   color: #444;
 }
-#greenBG{
+
+#greenBG {
   background-color: #00c173;
 }
-#greenText{
+
+#greenText {
   color: #00c173;
 }
 
-#members img{
+#members img {
   height: 60px;
 }
 
-
-nav li a{
+nav li a {
   font-size: 130%;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -234,4 +236,28 @@ nav li a{
 
 .opacity {
   opacity: 0.5;
+}
+
+.button-collapse {
+  top: 20px;
+  left: 20px;
+}
+
+.img-raised {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee
+}
+
+#mission{
+  color: #eee;
 }

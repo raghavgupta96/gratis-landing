@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Icon -->
-  <link rel="shortcut icon" type="image/png" href="./index_files/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="./index_files/favicon.png">
 
   <title>Gratis</title>
 
@@ -12,25 +15,18 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="./index_files/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="./index_files/style.css" type="text/css" rel="stylesheet" media="screen,projection">
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-	<!--     Fonts and icons     -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
-	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/material-kit.css" rel="stylesheet"/>
-
-	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="assets/css/demo.css" rel="stylesheet" />
 </head>
+
 <body>
   <!-- Navbar -->
   <!--
@@ -41,66 +37,93 @@
   </div>-->
   <div id="index-banner" class="parallax-container">
     <nav>
-      <div class="nav-wrapper">
-        <a href="#!" class="brand-logo"><img src="./index_files/logo-white.png" alt="Gratis"></a>
-        <a id = "mobileNav" href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+      <div class="nav-wrapper" data-nav-status="toggle">
+        <a href="./index.html" class="brand-logo">
+          <img src="./index_files/logo-white.png" alt="Gratis">
+        </a>
+        <a id="nav-mobile" href="./index.html" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons white-text">menu</i>
+        </a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#footer">About Us</a></li>
-          <li><a href="badges.html">Contact</a></li>
-          <li><a href="collapsible.html">Additional Resources</a></li>
-          <li><a href="mobile.html">Blog</a></li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a></a>
+          </li>
+          <li>
+            <a></a>
+          </li>
+          <!--<li><a href="collapsible.html">Additional Resources</a></li>-->
+          <!--<li><a href="mobile.html">Blog</a></li>-->
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="sass.html">About Us</a></li>
-          <li><a href="badges.html">Contact</a></li>
-          <li><a href="collapsible.html">Additional Resources</a></li>
-          <li><a href="mobile.html">Blog</a></li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <!--<li><a href="collapsible.html">Additional Resources</a></li>-->
+          <!--<li><a href="mobile.html">Blog</a></li>-->
         </ul>
       </div>
     </nav>
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-        <h1 id="greenText"class="header center text-accent-5">Why Settle for Less?</h1>
+        <br>
+        <br>
+        <h1 id="greenText" class="header center text-accent-5">Why Settle for Less?</h1>
         <div class="row center">
           <h5 class="header col s12 light">An easy way to find free food on campus</h5>
         </div>
 
-        <br><br>
+        <br>
+        <br>
       </div>
     </div>
-    <div id = "imageO"class="parallax"><img src="./index_files/background1.jpg" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 203px, 0px);"></div>
+    <div id="imageO" class="parallax">
+      <img src="./index_files/background1.jpg" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 203px, 0px);">
+    </div>
   </div>
 
   <div class="container">
-    <div id = "benefits"class="section">
+    <div id="benefits" class="section">
 
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 id = "greenText" class="center"><i class="material-icons">phone_iphone</i></h2>
-            <h5 id = "greenText" class="center black-text">At Your Fingertips</h5>
+            <h2 id="greenText" class="center">
+              <i class="material-icons">phone_iphone</i>
+            </h2>
+            <h5 id="greenText" class="center black-text">At Your Fingertips</h5>
 
-            <p id = "greenText" class="light center black-text ">Use Gratis from your phone to find free food sources on and around campus.</p>
+            <p id="greenText" class="light center black-text ">Use Gratis from your phone to find free food sources on and around campus.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 id = "greenText" class="center"><i class="material-icons">map</i></h2>
-            <h5 id = "greenText" class="center black-text">Find Nearest Food Events</h5>
+            <h2 id="greenText" class="center">
+              <i class="material-icons">map</i>
+            </h2>
+            <h5 id="greenText" class="center black-text">Find Nearest Food Events</h5>
 
-            <p id = "greenText" class="light center black-text">See realtime food events on google maps.</p>
+            <p id="greenText" class="light center black-text">See realtime food events on google maps.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 id = "greenText" class="center"><i class="material-icons">donut_small</i></h2>
-            <h5 id = "greenText" class="center black-text">Leverage It</h5>
-
-            <p id = "greenText" class="light center black-text">Be a food provider and learn student behavior, promote events, save food waste and more!</p>
+            <h2 id="greenText" class="center">
+              <i class="material-icons">show_chart</i>
+            </h2>
+            <h5 id="greenText" class="center black-text">Gain Insights</h5>
+            <p id="greenText" class="light center black-text">Be a food provider and learn student behavior, promote events, save food waste and more!</p>
           </div>
         </div>
       </div>
@@ -108,58 +131,54 @@
     </div>
   </div>
 
-
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h2 id = "countdown"class="header col s12 light">Gratis will launch in:</h2>
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h1 id="mission" class="header col s12 light"><strong>Mission Statement:</strong> End food waste by solving the problem of food insecurity at SJSU</h1>
+          </div>
         </div>
-        <p id="demo"></p>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Nov 29, 2017 00:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-    // Get todays date and time
-    var now = new Date().getTime();
-
-    // Find the distance between now an the count down date
-    var distance = countDownDate - now;
-
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-
-    // If the count down is over, write some text
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-}, 1000);
-</script>
+      </div>
+      <div class="parallax">
+        <img src="./index_files/background2.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);">
       </div>
     </div>
-    <div class="parallax"><img src="./index_files/background2.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);"></div>
-  </div>
+  
 
   <div class="container">
     <div class="section">
 
+      <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 class="black-text">Contact Us</h4><br>
-          <h5><a id = "greenText" class="center-align light" href="mailto:teamgratisfood.com">team@gratisfood.com</a></h5>
+        <div class="col s12">
+          <div class="icon-block">
+            <h2 id="greenText" class="center">
+              <i class="material-icons" style="font-size: 80px">info_outline</i>
+            </h2>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 id="greenText" class="center black-text">4.9 million</h5>
+            <p id="greenText" class="light center black-text ">12% of Californians self-identified themselves as
+              <a href="https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/definitions-of-food-security/">food insecure.</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 id="greenText" class="center black-text">48% of Students</h5>
+
+            <p id="greenText" class="light center black-text">Approximately one in every two students in California is food insecure.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 id="greenText" class="center black-text">17,000</h5>
+            <p id="greenText" class="light center black-text">That's the number of SJSU students facing food insecurity everyday!</p>
+          </div>
         </div>
       </div>
 
@@ -167,118 +186,155 @@ var x = setInterval(function() {
   </div>
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h2 id = "countdown"class="header col s12 light">Gratis will launch in:</h2>
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h2 id="countdown" class="header col s12 light">Gratis will launch in:</h2>
+            <br>
+            <p id="demo"></p>
+          </div>
         </div>
       </div>
+      <div class="parallax">
+        <img src="./index_files/background4.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);">
+      </div>
     </div>
-    <div class="parallax"><img src="./index_files/background2.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);"></div>
-  </div>
-
+  
+  <!--
   <div class="container">
     <div class="section">
+      <div id="benefits" class="section">
 
+           Icon Section 
+        
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 id="greenText" class="center">
+                <i class="material-icons">phone_iphone</i>
+              </h2>
+              <h5 id="greenText" class="center black-text">At Your Fingertips</h5>
+
+              <p id="greenText" class="light center black-text ">Use Gratis from your phone to find free food sources on and around campus.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 id="greenText" class="center">
+                <i class="material-icons">map</i>
+              </h2>
+              <h5 id="greenText" class="center black-text">Find Nearest Food Events</h5>
+
+              <p id="greenText" class="light center black-text">See realtime food events on google maps.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 id="greenText" class="center">
+                <i class="material-icons">donut_small</i>
+              </h2>
+              <h5 id="greenText" class="center black-text">Leverage It</h5>
+
+              <p id="greenText" class="light center black-text">Be a food provider and learn student behavior, promote events, save food waste and more!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+
+  <div class="container-fluid grey lighten-3 section scrollspy" id="contact">
+    <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4 class="black-text">Contact Us</h4><br>
-          <h5><a id = "greenText" class="center-align light" href="mailto:teamgratisfood.com">team@gratisfood.com</a></h5>
+          <h3>
+            <i class="mdi-content-send brown-text"></i>
+          </h3>
+          <h4 class="black-text">Contact Us</h4>
+          <h5>
+            <a id="greenText" class="center-align light" href="mailto:teamgratisfood.com">team@gratisfood.com</a>
+          </h5>
         </div>
       </div>
 
     </div>
   </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h2 id = "countdown"class="header col s12 light">Gratis will launch in:</h2>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="./index_files/background2.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);"></div>
-  </div>
-
-
-
-  <div class="container">
-    <div class ="section">
-    <div class="row">
-      <div class="col s12">
-        <h5 id = "greenText" class="center">Team Bio</h5>
-        <p class="black-text text-lighten-4">We are a group of San Jose State University students working on a food rescue application to solve the issue of food waste and help food insecure students.</p>
-      </div>
-    </div>
-    <div class="row">
-
-
-      <div class="col s12 m4 center">
-        <div class="icon-block">
-        <img class = "img-circle" src="gina.jpg" alt="memberPic" height="70" width="auto" >
-          <h5 id = "greenText" class="center">Raghav Gupta</h5>
-
-          <p class="center light black-text">Project Manager & Liasion</p>
-          <p class="center light black-text">Software Engineer</p>
-          <p class="center light black-text">Fall 2018</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4 center">
-        <div class="icon-block">
-          <img class = "img-circle" src="gina.jpg" alt="memberPic" height="70" width="auto" >
-          <h5 id = "greenText"  class="center">Ijaaz Omer</h5>
-
-          <p class="center light black-text">Project Archivist & Financial Officer</p>
-          <p class="center light black-text">Computer Engineer</p>
-          <p class="center light balck-text">Spring 2018</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4 center">
-        <div class="icon-block">
-          <img class = "img-circle" src="gina.jpg" alt="memberPic" height="70" width="auto" >
-          <h5 id = "greenText" class="center">Bala Kyaw</h5>
-
-          <p class="center light black-text">Technical Lead & Developer
-  </p>
-          <p class="center light black-text">Software Engineer</p>
-          <p class="center light black-text">Spring 2018</p>
-        </div>
-      </div>
-
-      <div class="col s12 m6 center">
-        <div class="icon-block">
-          <img class = "img-circle" src="gina.jpg" alt="memberPic" height="70" width="auto" >
-          <h5 id = "greenText" class="center">Nhat Trinh</h5>
-
-          <p class="center light black-text">Webmaster & UI Designer
-  </p>
-          <p class="center light black-text">Software Engineer</p>
-          <p class="center light black-text">Fall 2018</p>
-        </div>
-      </div>
-
-      <div class="col s12 m6 center">
-        <div class="icon-block">
-          <img class = "img-circle" src="gina.jpg" alt="memberPic" height="70" width="auto" >
-          <h5 id = "greenText" class="center">Jinal Bhojani</h5>
-
-          <p class="center light black-text">UI & UX Designer</p>
-          <p class="center light black-text">Software Engineer</p>
-          <p class="center light black-text">Volunteer</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-
-  <footer id = "footer"class="page-footer accent-5">
     <div class="container">
+      <div class="section">
+          <div class="col s12">
+            <h5 id="greenText" class="center">Team Bio</h5>
+            <p class="center black-text text-lighten-4">We are a group of San Jose State University students working on a food rescue application to solve the issue
+              of food waste and help food insecure students.</p>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col s12 m4 center">
+            <div class="icon-block">
+              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Rag.JPG" alt="memberPic" height="120px"
+                width="auto">
+              <h5 id="greenText" class="center">Raghav Gupta</h5>
+              <p class="center light black-text">Project Manager & Liasion
+                <br> Software Engineer
+                <br> Fall 2018 </p>
+            </div>
+          </div>
+
+          <div class="col s12 m4 center section scrollspy" id="about">
+            <div class="icon-block">
+              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Ijaaz.png" alt="memberPic" height="120px"
+                width="auto">
+              <h5 id="greenText" class="center">Ijaaz Omer</h5>
+              <p class="center light black-text">Project Archivist & Financial Officer
+                <br>Computer Engineer
+                <br>Spring 2018</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4 center">
+            <div class="icon-block">
+              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Bala.jpg" alt="memberPic" height="120px"
+                width="auto">
+              <h5 id="greenText" class="center">Bala Kyaw</h5>
+              <p class="center light black-text">Technical Lead & Developer
+                <br>Software Engineer
+                <br>Spring 2018</p>
+            </div>
+          </div>
+
+          <div class="col s12 m6 center">
+            <div class="icon-block">
+              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Nhat.jpg" alt="memberPic" height="120px"
+                width="auto">
+              <h5 id="greenText" class="center">Nhat Trinh</h5>
+              <p class="center light black-text">Webmaster & UI Designer
+                <br>Software Engineer
+                <br>Fall 2018</p>
+            </div>
+          </div>
+
+          <div class="col s12 m6 center">
+            <div class="icon-block">
+              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Gina.jpg" alt="memberPic" height="120px"
+                width="auto">
+              <h5 id="greenText" class="center">Jinal Bhojani</h5>
+              <p class="center light black-text">UI & UX Designer
+                <br>Software Engineer
+                <br>Volunteer</p>
+            </div>
+          </div>
+        
+      </div>
+  </div>
+
+  <footer id="footer" class="page-footer accent-5">
+    <!--
+    <div class="container">
+      
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
@@ -295,11 +351,13 @@ var x = setInterval(function() {
               </div>
             </div>
           </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-4" href="https://sites.google.com/a/sjsu.edu/gratis-food-app/home?pli=1">Gratis Team</a>
-      </div>
+        -->
+    <!--<div class="footer-copyright">-->
+    <div class="container center-align">
+      Made by
+      <a class="brown-text text-lighten-4" href="https://sites.google.com/a/sjsu.edu/gratis-food-app/home?pli=1">Team Gratis</a>
     </div>
+    <!--</div>-->
   </footer>
 
 
@@ -308,7 +366,11 @@ var x = setInterval(function() {
   <script src="./index_files/materialize.js.download"></script>
   <script src="./index_files/init.js.download"></script>
   <script src="./index_files/materialize.min.js.download"></script>
+  <script src="./index_files/scrollSpy.js"></script>
+  <script src="./index_files/countdown.js"></script>
 
+  <div class="hiddendiv common"></div>
+  <div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+</body>
 
-
-<div class="hiddendiv common"></div><div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></body></html>
+</html>
