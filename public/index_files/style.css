@@ -19,6 +19,20 @@ p {
   line-height: 2rem;
 }
 
+#emailInput{
+  text-align:center; 
+  color:#26a69a; 
+  background-color:rgba(255,255,255,0); 
+  height: 30px;
+  font-size: 20px; 
+  box-shadow: 0 4px 2px -2px #26a69a;
+}
+
+#emailButton{
+  background-color: #26a69a; 
+  color:white; 
+}
+
 .button-collapse {
   color: #26a69a;
 }
@@ -41,6 +55,16 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+  #emailInput{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+  }
+  #emailButton{
+    position: absolute;
+    top: 70%;
+    left: 35%;
   }
 }
 
@@ -135,6 +159,7 @@ h5 {
     font-size: 500%;
     text-align: center;
   }
+  
 }
 
 
@@ -154,6 +179,10 @@ h5 {
     font-size: 400%;
     text-align: center;
   }
+  #emailButton{
+    left:0%;
+    width: 100%;
+  }
 }
 
 
@@ -172,6 +201,9 @@ h5 {
   #demo {
     font-size: 300%;
     text-align: center;
+  }
+  #emailButton{
+    width: 100%;
   }
 }
 
