@@ -12,7 +12,7 @@
   <title>Gratis</title>
 
   <!-- CSS  -->
-  
+
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="./index_files/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <!-- WARNING: adding bootstrap messes up formatting of timer and team member sections!
@@ -28,6 +28,22 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
+  <!--Form Validation-->
+  <script>  
+function validateemail()  
+{  
+var x=document.myform.email.value;  
+var atposition=x.indexOf("@");  
+var dotposition=x.lastIndexOf(".");  
+if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
+  return false;  
+  }
+  else{
+    document.getElementById('chart').style.display = "block";
+  }
+}  
+</script> 
 </head>
 
 <body>
@@ -83,17 +99,26 @@
         <div class="row center">
           <h5 class="header col s12 light">An easy way to find free food on campus</h5>
         </div>
-
-        <br>
-        <br>
-      </div>
-    </div>
-    <div class="container" style="padding-top:5%;">
-      <div class="center-align">
-            <form id="getUserEmail">
-              <input style="text-align:center; color:green; background-color:white; font-size: 20px; width:30vw" type="text" name="userEmail" class="EmailInput">
+        <div class="row center">
+          <div class="container">
+            <form id="subscriptions-form" onsubmit="return validateemail();">
+              <div class="input-field">
+                  <input id="email" name="email" type="email" class="validate black-text white center-align" placeholder="Enter your email here" required="" aria-required="true">
+              </div>
+              <div id="chart" class="progress" style="display: none;">
+                  <div class="indeterminate"></div>
+              </div>
+              <div>
+                  <button id="submit-form" class="btn waves-effect waves-light" type="submit" name="action">SUBSCRIBE TO Gratis
+                      <i class="material-icons right">send</i>
+                  </button>
+              </div>
+              
             </form>
-            <button type="submit" form="getUserEmail" value="Subscribe to Our Newsletter" style="color:black; height: 25px; width: 350px;">Subscribe to Our Newsletter</button>
+          </div>
+        </div>
+        <br>
+        <br>
       </div>
     </div>
     <div id="imageO" class="parallax">
@@ -143,18 +168,19 @@
   </div>
 
   <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h1 id="mission" class="header col s12 light"><strong>Mission Statement:</strong> End food waste by solving the problem of food insecurity at SJSU</h1>
-          </div>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h1 id="mission" class="header col s12 light">
+            <strong>Mission Statement:</strong> End food waste by solving the problem of food insecurity at SJSU</h1>
         </div>
       </div>
-      <div class="parallax">
-        <img src="./index_files/background2.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);">
-      </div>
     </div>
-  
+    <div class="parallax">
+      <img src="./index_files/background2.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);">
+    </div>
+  </div>
+
 
   <div class="container">
     <div class="section">
@@ -195,24 +221,24 @@
 
     </div>
   </div>
-  
+
 
 
   <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h2 id="countdown" class="header col s12 light">Gratis will launch in:</h2>
-            <br>
-            <p id="demo"></p>
-          </div>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h2 id="countdown" class="header col s12 light">Gratis will launch in:</h2>
+          <br>
+          <p id="demo"></p>
         </div>
       </div>
-      <div class="parallax">
-        <img src="./index_files/background4.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);">
-      </div>
     </div>
-  
+    <div class="parallax">
+      <img src="./index_files/background4.jpg" alt="Unsplashed background img 2" style="display: block; transform: translate3d(-50%, 43px, 0px);">
+    </div>
+  </div>
+
   <!--
   <div class="container">
     <div class="section">
@@ -276,72 +302,72 @@
     </div>
   </div>
 
-    <div class="container">
-      <div class="section">
-          <div class="col s12">
-            <h5 id="greenText" class="center">Team Bio</h5>
-            <p class="center black-text text-lighten-4">We are a group of San Jose State University students working on a food rescue application to solve the issue
-              of food waste and help food insecure students.</p>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col s12 m4 center">
-            <div class="icon-block">
-              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Rag.JPG" alt="memberPic" height="120px"
-                width="auto">
-              <h5 id="greenText" class="center">Raghav Gupta</h5>
-              <p class="center light black-text">Project Manager & Liasion
-                <br> Software Engineer
-                <br> Fall 2018 </p>
-            </div>
-          </div>
-
-          <div class="col s12 m4 center section scrollspy" id="about">
-            <div class="icon-block">
-              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Ijaaz.png" alt="memberPic" height="120px"
-                width="auto">
-              <h5 id="greenText" class="center">Ijaaz Omer</h5>
-              <p class="center light black-text">Project Archivist & Financial Officer
-                <br>Computer Engineer
-                <br>Spring 2018</p>
-            </div>
-          </div>
-
-          <div class="col s12 m4 center">
-            <div class="icon-block">
-              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Bala.jpg" alt="memberPic" height="120px"
-                width="auto">
-              <h5 id="greenText" class="center">Bala Kyaw</h5>
-              <p class="center light black-text">Technical Lead & Developer
-                <br>Software Engineer
-                <br>Spring 2018</p>
-            </div>
-          </div>
-
-          <div class="col s12 m6 center">
-            <div class="icon-block">
-              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Nhat.jpg" alt="memberPic" height="120px"
-                width="auto">
-              <h5 id="greenText" class="center">Nhat Trinh</h5>
-              <p class="center light black-text">Webmaster & UI Designer
-                <br>Software Engineer
-                <br>Fall 2018</p>
-            </div>
-          </div>
-
-          <div class="col s12 m6 center">
-            <div class="icon-block">
-              <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Gina.jpg" alt="memberPic" height="120px"
-                width="auto">
-              <h5 id="greenText" class="center">Jinal Bhojani</h5>
-              <p class="center light black-text">UI & UX Designer
-                <br>Software Engineer
-                <br>Volunteer</p>
-            </div>
-          </div>
-        
+  <div class="container">
+    <div class="section">
+      <div class="col s12">
+        <h5 id="greenText" class="center">Team Bio</h5>
+        <p class="center black-text text-lighten-4">We are a group of San Jose State University students working on a food rescue application to solve the issue of food
+          waste and help food insecure students.</p>
       </div>
+    </div>
+    <div class="row">
+
+      <div class="col s12 m4 center">
+        <div class="icon-block">
+          <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Rag.JPG" alt="memberPic" height="120px"
+            width="auto">
+          <h5 id="greenText" class="center">Raghav Gupta</h5>
+          <p class="center light black-text">Project Manager & Liasion
+            <br> Software Engineer
+            <br> Fall 2018 </p>
+        </div>
+      </div>
+
+      <div class="col s12 m4 center section scrollspy" id="about">
+        <div class="icon-block">
+          <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Ijaaz.png" alt="memberPic" height="120px"
+            width="auto">
+          <h5 id="greenText" class="center">Ijaaz Omer</h5>
+          <p class="center light black-text">Project Archivist & Financial Officer
+            <br>Computer Engineer
+            <br>Spring 2018</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4 center">
+        <div class="icon-block">
+          <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Bala.jpg" alt="memberPic" height="120px"
+            width="auto">
+          <h5 id="greenText" class="center">Bala Kyaw</h5>
+          <p class="center light black-text">Technical Lead & Developer
+            <br>Software Engineer
+            <br>Spring 2018</p>
+        </div>
+      </div>
+
+      <div class="col s12 m6 center">
+        <div class="icon-block">
+          <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Nhat.jpg" alt="memberPic" height="120px"
+            width="auto">
+          <h5 id="greenText" class="center">Nhat Trinh</h5>
+          <p class="center light black-text">Webmaster & UI Designer
+            <br>Software Engineer
+            <br>Fall 2018</p>
+        </div>
+      </div>
+
+      <div class="col s12 m6 center">
+        <div class="icon-block">
+          <img class="img-circle img-raised img-responsive" src="./index_files/Profile_Images/Gina.jpg" alt="memberPic" height="120px"
+            width="auto">
+          <h5 id="greenText" class="center">Jinal Bhojani</h5>
+          <p class="center light black-text">UI & UX Designer
+            <br>Software Engineer
+            <br>Volunteer</p>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   <footer id="footer" class="page-footer accent-5">
@@ -375,12 +401,14 @@
 
 
   <!--  Scripts-->
-  <script src="./index_files/jquery-2.1.1.min.js.download"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="./index_files/materialize.js.download"></script>
   <script src="./index_files/init.js.download"></script>
   <script src="./index_files/materialize.min.js.download"></script>
   <script src="./index_files/scrollSpy.js"></script>
   <script src="./index_files/countdown.js"></script>
+  <script src="./index_files/subscriptions.js"></script>
+  <script src="./index_files/jquery.serialize-object.min.js"></script>
 
   <div class="hiddendiv common"></div>
   <div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
