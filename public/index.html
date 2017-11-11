@@ -27,7 +27,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
 </head>
 
 <body>
@@ -84,22 +83,24 @@
           <h5 class="header col s12 light">An easy way to find free food on campus</h5>
         </div>
 
-        <br>
-        <br>
+        <br/>
+        <br/>
       </div>
     </div>
     <div class="container" style="padding-top:5%;">
       <div class="center-align">
-            <form id="getUserEmail">
-              <input style="text-align:center; color:green; background-color:white; font-size: 20px; width:30vw" type="text" name="userEmail" class="EmailInput">
+            <span id="emailSpan"></span>
+            <br/>
+            <form id="emailForm">
+              <input id="emailInput" type="text" name="userEmail" class="input-field col s6">
             </form>
-            <button type="submit" form="getUserEmail" value="Subscribe to Our Newsletter" style="color:black; height: 25px; width: 350px;">Subscribe to Our Newsletter</button>
+            <button id="emailButton" class="waves-effect waves-light btn" type="submit" form="getUserEmail" value="Subscribe to Our Newsletter">Subscribe to Our Newsletter</button>
       </div>
     </div>
     <div id="imageO" class="parallax">
       <img src="./index_files/background1.jpg" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 203px, 0px);">
     </div>
-  </div>
+    </div>
 
   <div class="container">
     <div id="benefits" class="section">
@@ -381,6 +382,7 @@
   <script src="./index_files/materialize.min.js.download"></script>
   <script src="./index_files/scrollSpy.js"></script>
   <script src="./index_files/countdown.js"></script>
+  <script src="./index_files/email.js"></script>
 
   <div class="hiddendiv common"></div>
   <div class="drag-target" data-sidenav="nav-mobile" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
