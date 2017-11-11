@@ -11,7 +11,12 @@ $('#subscriptions-form').on('submit', function (e) {
     success: function(){
       confirm("Subscribed!");
       location.reload();
+    },
+    error: function(){
+      confirm("Something went wrong!");
+      location.reload();
     }
   });
+  $("#chart").show();
 
 })

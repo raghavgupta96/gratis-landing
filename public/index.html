@@ -27,24 +27,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-  <!--Form Validation-->
-  <script>  
-function validateemail()  
-{  
-var x=document.myform.email.value;  
-var atposition=x.indexOf("@");  
-var dotposition=x.lastIndexOf(".");  
-if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
-  alert("Please enter a valid e-mail address \n atpostion:"+atposition+"\n dotposition:"+dotposition);  
-  return false;  
-  }
-  else{
-    document.getElementById('chart').style.display = "block";
-  }
-}  
-</script> 
-
+  
 </head>
 
 <body>
@@ -102,19 +85,20 @@ if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
         </div>
         <div class="row center">
           <div class="container">
-            <form id="subscriptions-form" onsubmit="return validateemail();">
+            <form id="subscriptions-form">
               <div class="input-field">
-                  <input id="email" name="email" type="email" class="validate black-text white center-align" placeholder="Enter your email here" required="" aria-required="true">
+                <input id="email" name="email" type="email" class="validate black-text white center-align" placeholder="Enter your email here"
+                  required="" aria-required="true">
               </div>
               <div id="chart" class="progress" style="display: none;">
-                  <div class="indeterminate"></div>
+                <div class="indeterminate"></div>
               </div>
               <div>
-                  <button id="submit-form" class="btn waves-effect waves-light" type="submit" name="action">SUBSCRIBE TO Gratis
-                      <i class="material-icons right">send</i>
-                  </button>
+                <button id="submit-form" class="btn waves-effect waves-light" type="submit" name="action">SUBSCRIBE TO Gratis
+                  <i class="material-icons right">send</i>
+                </button>
               </div>
-              
+
             </form>
           </div>
         </div>
@@ -126,7 +110,7 @@ if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
     <div id="imageO" class="parallax">
       <img src="./index_files/background1.jpg" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 203px, 0px);">
     </div>
-    </div>
+  </div>
 
   <div class="container">
     <div id="benefits" class="section">
@@ -403,7 +387,8 @@ if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   <script src="./index_files/materialize.js.download"></script>
   <script src="./index_files/init.js.download"></script>
   <script src="./index_files/materialize.min.js.download"></script>
