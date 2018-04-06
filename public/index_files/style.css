@@ -13,8 +13,6 @@ body {
   /*background-color: #00c173;*/
 }
 
-.members {}
-
 p {
   line-height: 2rem;
 }
@@ -251,7 +249,7 @@ nav ul a,
   background-color: #00c173;
 }
 
-#greenText {
+.greenText {
   color: #00c173;
 }
 
@@ -296,9 +294,6 @@ hr {
 
 #mission{
   color: #eee;
-}
-{
-  box-sizing: border-box;
 }
 
 .column {
