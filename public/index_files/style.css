@@ -36,7 +36,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 560px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, .9);
@@ -320,48 +320,20 @@ hr {
    width: 100%; /* for IE 6 */
 }
 
-.card-panel.hoverable
-  overflow: hidden
-  position: relative
-  transform-style: preserve-3d
-  color: white
-  height: 400px
+.tabs .tab a{
+            color:#000;
+        } /*Black color to the text*/
 
-  &.small
-    height: 300px
+        .tabs .tab a:hover {
+            background-color:#fff;
+            color:#000;
+        } /*Text color on hover*/
 
-  &.medium
-    height: 400px
+        .tabs .tab a.active {
+            background-color:#fff;
+            color:#000;
+        } /*Background and text color when a tab is active*/
 
-  &.large
-    height: 500px
-  
-  .card-panel-header
-    position: relative
-    top: 50%
-    transform: translateY(-50%) scale(1.5)
-    transition: top .25s .1s, transform .25s ease .1s
-  
-  .card-panel-icon
-    display: block
-    text-align: center
-
-  .card-panel-caption
-    display: block
-    text-align: center
-    font-size: 1rem
-
-  .card-panel-content
-    opacity: 0
-    transform: translateY(20px)
-    transition: transform .25s, opacity .8s
-
-  &:hover
-    .card-panel-header
-      transform: translateY(0) scale(1)
-      top: 0
-
-    .card-panel-content
-      transform: translateY(0)
-      opacity: 1
-
+        .tabs .indicator {
+            background-color:#00c173;
+        } /*Color of underline*/
