@@ -36,7 +36,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 560px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, .9);
@@ -320,3 +320,20 @@ hr {
    width: 100%; /* for IE 6 */
 }
 
+.tabs .tab a{
+            color:#000;
+        } /*Black color to the text*/
+
+        .tabs .tab a:hover {
+            background-color:#fff;
+            color:#000;
+        } /*Text color on hover*/
+
+        .tabs .tab a.active {
+            background-color:#fff;
+            color:#000;
+        } /*Background and text color when a tab is active*/
+
+        .tabs .indicator {
+            background-color:#00c173;
+        } /*Color of underline*/
