@@ -11,8 +11,13 @@
   <title>Gratis</title>
 
   <!--CSS-->
+  <!-- Materialize Icons Pack -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!-- Materialize UI -->
   <link href="./index_files/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  
+  <!-- Project CSS File -->
   <link href="./index_files/style.css" type="text/css" rel="stylesheet" media="screen,projection">
 
   <!--Fonts and Icons-->
@@ -340,11 +345,9 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h2 class="header col s12 light">Gratis beta is launched!</h2>
+            <h2 class="header col s12 light" id="countdown_expire" style="display: none"></h2>
           <br>
-          <a href="https://app.gratisfood.com">
-            <h1 class="greenText">GO TO APP</h1>
-          </a>
+            <div id="countdown" class="greenText" ></div>
         </div>
       </div>
     </div>

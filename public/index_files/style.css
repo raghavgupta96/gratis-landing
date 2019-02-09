@@ -337,3 +337,8 @@ hr {
         .tabs .indicator {
             background-color:#00c173;
         } /*Color of underline*/
+
+
+  #countdown{
+    font-size: 100px;
+  }
