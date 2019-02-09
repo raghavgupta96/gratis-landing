@@ -1,6 +1,5 @@
 /* Custom Stylesheet */
 
-
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -17,18 +16,18 @@ p {
   line-height: 2rem;
 }
 
-#emailInput{
-  text-align:center; 
-  color:#26a69a; 
-  background-color:rgba(255,255,255,0); 
+#emailInput {
+  text-align: center;
+  color: #26a69a;
+  background-color: rgba(255, 255, 255, 0);
   height: 30px;
-  font-size: 20px; 
+  font-size: 20px;
   box-shadow: 0 4px 2px -2px #26a69a;
 }
 
-#emailButton{
-  background-color: #26a69a; 
-  color:white; 
+#emailButton {
+  background-color: #26a69a;
+  color: white;
 }
 
 .button-collapse {
@@ -39,7 +38,7 @@ p {
   min-height: 500px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .parallax-container .section {
@@ -54,12 +53,12 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  #emailInput{
+  #emailInput {
     position: absolute;
     top: 60%;
     left: 0%;
   }
-  #emailButton{
+  #emailButton {
     position: absolute;
     top: 70%;
     left: 35%;
@@ -89,7 +88,6 @@ h5 {
   text-align: center;
 }
 
-
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -107,7 +105,6 @@ h5 {
     text-align: center;
   }
 }
-
 
 /*
   ##Device = Laptops, Desktops
@@ -140,7 +137,6 @@ h5 {
   }
 }
 
-
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -157,9 +153,7 @@ h5 {
     font-size: 500%;
     text-align: center;
   }
-  
 }
-
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -177,12 +171,11 @@ h5 {
     font-size: 400%;
     text-align: center;
   }
-  #emailButton{
-    left:0%;
+  #emailButton {
+    left: 0%;
     width: 100%;
   }
 }
-
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -200,7 +193,7 @@ h5 {
     font-size: 300%;
     text-align: center;
   }
-  #emailButton{
+  #emailButton {
     width: 100%;
   }
 }
@@ -274,71 +267,67 @@ nav li a {
 }
 
 .img-raised {
-  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
-.img-circle {
-  border-radius: 50%
-}
-
-a:hover{
-  color:silver;
+a:hover {
+  color: silver;
 }
 
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee
+  border-top: 1px solid #eee;
 }
 
-#mission{
+#mission {
   color: #eee;
 }
 
 .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-     }
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
 
 /* Clear floats after the columns */
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
+.image {
+  position: relative;
+  width: 100%; /* for IE 6 */
 }
 
-.tabs .tab a{
-            color:#000;
-        } /*Black color to the text*/
+.tabs .tab a {
+  color: #000;
+} /*Black color to the text*/
 
-        .tabs .tab a:hover {
-            background-color:#fff;
-            color:#000;
-        } /*Text color on hover*/
+.tabs .tab a:hover {
+  background-color: #fff;
+  color: #000;
+} /*Text color on hover*/
 
-        .tabs .tab a.active {
-            background-color:#fff;
-            color:#000;
-        } /*Background and text color when a tab is active*/
+.tabs .tab a.active {
+  background-color: #fff;
+  color: #000;
+} /*Background and text color when a tab is active*/
 
-        .tabs .indicator {
-            background-color:#00c173;
-        } /*Color of underline*/
+.tabs .indicator {
+  background-color: #00c173;
+} /*Color of underline*/
 
-
-  #countdown{
-    font-size: 100px;
-  }
+#countdown {
+  font-size: 100px;
+}
