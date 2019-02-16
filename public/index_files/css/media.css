@@ -1,0 +1,70 @@
+/*Big table to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    #sign-up {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%
+    }
+    
+    #countdown{
+        font-size: 700%;
+    }
+}
+
+/*Small table to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    #sign-up {
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 40%
+    }
+    
+    #countdown{
+        font-size: 600%;
+    }
+}
+
+
+/*Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 400%;
+    }
+    .section{
+        padding-top: 0;
+    }
+    .row font{
+        font-size: 100%;
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+     #countdown{
+        font-size: 400%;
+    }
+}
+
+
+/*Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 350%;
+        
+    }
+    .section{
+        padding-top: 0;
+    }
+    .row font{
+        font-size: 100%;
+    }
+    
+    h2 {
+        font-size: 200%;
+    }
+    
+    #countdown{
+        font-size: 300%;
+    }
+}
