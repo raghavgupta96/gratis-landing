@@ -1,0 +1,237 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    background-color: white;
+    /*background-color: #00c173;*/
+}
+
+p {
+    line-height: 2rem;
+}
+
+#emailInput {
+    text-align: center;
+    color: #26a69a;
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    font-size: 20px;
+    -webkit-box-shadow: 0 4px 2px -2px #26a69a;
+    box-shadow: 0 4px 2px -2px #26a69a;
+}
+
+#emailButton {
+    background-color: #26a69a;
+    color: white;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 500px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+
+
+h1 {
+    font-size: 500%;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 250%;
+
+}
+
+h5 {
+    font-size: 170%;
+}
+
+#demo {
+    font-size: 800%;
+    text-align: center;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media screen and (min-width: 1281px) {
+    h1 {
+        font-size: 500%;
+    }
+
+    h5 {
+        font-size: 170%;
+    }
+
+    #demo {
+        font-size: 800%;
+        text-align: center;
+    }
+}
+
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-wrapper .brand-logo img {
+    height: 110px;
+}
+
+#logoGratis {
+    background-color: #00c173;
+}
+
+#footer {
+    background-color: #494949;
+}
+
+h1 {
+    color: #00c173;
+}
+
+nav {
+    background-color: transparent;
+    min-height: 120px;
+}
+
+nav ul a,
+.logoGratis .brand-logo {
+    color: #444;
+}
+
+#greenBG {
+    background-color: #00c173;
+}
+
+.greenText {
+    color: #00c173;
+}
+
+#members img {
+    height: 60px;
+}
+
+nav li a {
+    font-size: 130%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    color: white;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.button-collapse {
+    top: 20px;
+    left: 20px;
+}
+
+.img-raised {
+    -webkit-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+        0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+        0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    color: silver;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+#mission {
+    color: #eee;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+
+.tabs .tab a {
+    color: #000;
+}
+
+/*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*Text color on hover*/
+
+.ta    bs .tab a.active {
+    background-color: #fff;
+    color: #000;
+}
+
+/*Background and text color when a tab is active*/
+
+.tabs .indicator {
+    background-color: #00c173;
+}
+
+/*Color of underline*/
+
+#countdown {
+    font-size: 100px;
+}
