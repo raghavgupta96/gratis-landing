@@ -5,8 +5,8 @@
         margin-right: 25%;
         width: 50%
     }
-    
-    #countdown{
+
+    #countdown {
         font-size: 700%;
     }
 }
@@ -18,8 +18,8 @@
         margin-right: 30%;
         width: 40%
     }
-    
-    #countdown{
+
+    #countdown {
         font-size: 600%;
     }
 }
@@ -30,19 +30,26 @@
     h1 {
         font-size: 400%;
     }
-    .section{
+
+    .section {
         padding-top: 0;
     }
-    .row font{
+
+    .row font {
         font-size: 100%;
     }
-    
+
     h2 {
         font-size: 200%;
     }
-    
-     #countdown{
+
+    #countdown {
         font-size: 400%;
+    }
+
+    #sign-up {
+        width: 100%;
+        margin: auto 0;
     }
 }
 
@@ -51,20 +58,27 @@
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 350%;
-        
+
     }
-    .section{
+
+    .section {
         padding-top: 0;
     }
-    .row font{
+
+    .row font {
         font-size: 100%;
     }
-    
+
     h2 {
         font-size: 200%;
     }
-    
-    #countdown{
+
+    #countdown {
         font-size: 300%;
+    }
+
+    #sign-up {
+        width: 100%;
+        margin: auto 0;
     }
 }
