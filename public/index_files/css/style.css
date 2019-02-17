@@ -67,28 +67,6 @@ h5 {
     text-align: center;
 }
 
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media screen and (min-width: 1281px) {
-    h1 {
-        font-size: 500%;
-    }
-
-    h5 {
-        font-size: 170%;
-    }
-
-    #demo {
-        font-size: 800%;
-        text-align: center;
-    }
-}
-
-
-
 .icon-block {
     padding: 0 15px;
 }
@@ -213,15 +191,16 @@ hr {
 /*Black color to the text*/
 
 .tabs .tab a:hover {
-    background-color: #fff;
+    background-color: #00c173;
     color: #000;
+    transition: background-color 0.7s, color 0.2s;
 }
 
 /*Text color on hover*/
 
-.ta    bs .tab a.active {
+.tabs .tab a.active {
     background-color: #fff;
-    color: #000;
+    color: #00c173;
 }
 
 /*Background and text color when a tab is active*/
