@@ -1,12 +1,52 @@
-/*1200px to 1500px*/
-@media only screen and (min-width: 1500px) {
+/*1900px to 2000px*/
+@media only screen and (max-width: 2000px) {
     .image0 {
-        top: -27em;
+        top: -800px;
+    }
+}
+
+/*1800px to 1900px*/
+@media only screen and (max-width: 1900px) {
+    .image0 {
+        top: -710px;
     }
 }
 
 
-/*Big tablets to 1200px (widths smaller than the 1140px row) */
+/*1700px to 1800px*/
+@media only screen and (max-width: 1800px) {
+    .image0 {
+        top: -635px;
+    }
+}
+
+
+
+/*1600px to 1700px*/
+@media only screen and (max-width: 1700px) {
+    .image0 {
+        top: -560px;
+    }
+}
+
+
+/*1500px to 1700px*/
+@media only screen and (max-width: 1600px) {
+    .image0 {
+        top: -480px;
+    }
+}
+
+/*1200px to 1500px*/
+@media only screen and (max-width: 1500px) {
+    .image0 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*Big tablets to 1500px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
     #sign-up {
         margin-left: 25%;
@@ -17,6 +57,8 @@
     #countdown {
         font-size: 700%;
     }
+
+
 }
 
 /*Small table to big tablets: from 768px to 1023px */
