@@ -1,54 +1,6 @@
-/*1900px to 2000px*/
-@media only screen and (max-width: 2000px) {
-    .image0 {
-        top: -800px;
-    }
-}
-
-/*1800px to 1900px*/
-@media only screen and (max-width: 1900px) {
-    .image0 {
-        top: -710px;
-    }
-}
-
-
-/*1700px to 1800px*/
-@media only screen and (max-width: 1800px) {
-    .image0 {
-        top: -635px;
-    }
-}
-
-
-
-/*1600px to 1700px*/
-@media only screen and (max-width: 1700px) {
-    .image0 {
-        top: -560px;
-    }
-}
-
-
-/*1500px to 1700px*/
-@media only screen and (max-width: 1600px) {
-    .image0 {
-        top: -480px;
-    }
-}
-
-/*1200px to 1500px*/
-@media only screen and (max-width: 1500px) {
-    .image0 {
-        width: 100%;
-        height: auto;
-    }
-}
-
-
 /*Big tablets to 1500px (widths smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
-    #sign-up {
+@media only screen and (max-width: 1280px) {
+    #easy {
         margin-left: 25%;
         margin-right: 25%;
         width: 50%
@@ -63,7 +15,7 @@
 
 /*Small table to big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    #sign-up {
+    #easy {
         margin-left: 30%;
         margin-right: 30%;
         width: 40%
@@ -72,6 +24,7 @@
     #countdown {
         font-size: 600%;
     }
+
 }
 
 
@@ -97,10 +50,11 @@
         font-size: 400%;
     }
 
-    #sign-up {
+    #easy {
         width: 100%;
         margin: auto 0;
     }
+
 }
 
 
@@ -131,8 +85,9 @@
         font-size: 300%;
     }
 
-    #sign-up {
+    #easy {
         width: 100%;
         margin: auto 0;
     }
+
 }
