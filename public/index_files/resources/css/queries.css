@@ -1,4 +1,12 @@
-/*Big table to 1200px (widths smaller than the 1140px row) */
+/*1200px to 1500px*/
+@media only screen and (min-width: 1500px) {
+    .image0 {
+        top: -27em;
+    }
+}
+
+
+/*Big tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
     #sign-up {
         margin-left: 25%;
@@ -56,6 +64,10 @@
 
 /*Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 0px;
+    }
+
     h1 {
         font-size: 350%;
 
