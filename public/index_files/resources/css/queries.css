@@ -1,6 +1,6 @@
-/*Big table to 1200px (widths smaller than the 1140px row) */
-@media only screen and (max-width: 1200px) {
-    #sign-up {
+/*Big tablets to 1500px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1280px) {
+    #easy {
         margin-left: 25%;
         margin-right: 25%;
         width: 50%
@@ -9,11 +9,13 @@
     #countdown {
         font-size: 700%;
     }
+
+
 }
 
 /*Small table to big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    #sign-up {
+    #easy {
         margin-left: 30%;
         margin-right: 30%;
         width: 40%
@@ -22,6 +24,7 @@
     #countdown {
         font-size: 600%;
     }
+
 }
 
 
@@ -47,15 +50,20 @@
         font-size: 400%;
     }
 
-    #sign-up {
+    #easy {
         width: 100%;
         margin: auto 0;
     }
+
 }
 
 
 /*Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 0px;
+    }
+
     h1 {
         font-size: 350%;
 
@@ -77,8 +85,9 @@
         font-size: 300%;
     }
 
-    #sign-up {
+    #easy {
         width: 100%;
         margin: auto 0;
     }
+
 }

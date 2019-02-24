@@ -153,7 +153,7 @@ hr {
     border-top: 1px solid #eee;
 }
 
-#mission {
+.mission {
     color: #eee;
 }
 
@@ -184,6 +184,7 @@ hr {
     /* for IE 6 */
 }
 
+
 .tabs .tab a {
     color: #000;
 }
@@ -191,8 +192,9 @@ hr {
 /*Black color to the text*/
 
 .tabs .tab a:hover {
-    background-color: #00c173;
-    color: #000;
+    background-color: rgba(128, 252, 189, 0.48);
+    color: #00c173;
+    -webkit-transition: background-color 0.7s, color 0.2s;
     transition: background-color 0.7s, color 0.2s;
 }
 
@@ -213,4 +215,21 @@ hr {
 
 #countdown {
     font-size: 100px;
+}
+
+.tab-icon {
+    margin-bottom: 5px;
+}
+
+.card-content {
+    padding: 0 !important;
+}
+
+h6 {
+    margin-bottom: 20px;
+}
+
+
+.image0 {
+    top: -290px;
 }
