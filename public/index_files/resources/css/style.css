@@ -233,3 +233,11 @@ h6 {
 i {
     vertical-align: middle;
 }
+
+#nav-mobile {
+    margin-left: 0;
+}
+
+#mobile-demo {
+    width: 60%;
+}
