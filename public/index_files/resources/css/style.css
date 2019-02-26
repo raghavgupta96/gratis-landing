@@ -241,3 +241,22 @@ i {
 #mobile-demo {
     width: 50%;
 }
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 120px;
+    width: auto;
+    
+}
+
+.flex-item {
+    padding: 10px 10px;
+}
