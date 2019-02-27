@@ -9,7 +9,7 @@ $('#subscriptions-form').on('submit', function (e) {
     dataType: "json",
     data: $form.serializeObject(),
     success: function(){
-      confirm("Subscribed!");
+      alert("Thank you!\nYou have been subscribed to our mailing list!");
       location.reload();
     },
     error: function(){
